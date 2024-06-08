@@ -33,7 +33,7 @@ const Projects = () => {
               </p>
               <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
             </div>
-            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+            <p className="bg-[#31363F] text-sm md:text-base p-2 md:p-6 rounded-md">
               An Amazon clone website for visualizing personalized Amazon
               website. View your products, Add your account with{" "}
               <span className="text-textGreen">O-auth</span> and then make the
@@ -54,13 +54,13 @@ const Projects = () => {
               >
                 <TbBrandGithub />
               </a>
-              <a
+              {/*<a
                 className="hover:text-textGreen duration-300"
                 href="https://youtu.be/WzMtRfzkP-Q"
                 target="_blank"
               >
                 <AiOutlineYoutube />
-              </a>
+              </a>}*/}
               <a
                 className="hover:text-textGreen duration-300"
                 href="https://nextamazon.reactbd.com/"
@@ -95,7 +95,7 @@ const Projects = () => {
               </p>
               <h3 className="text-2xl font-bold">Cyber Security Blog</h3>
             </div>
-            <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
+            <p className="text-sm md:text-base bg-[#31363F] p-2 md:p-6 rounded-md xl:-mr-16">
               A full functional Cyber Security Blog where you can view the
               latest post and{" "}
               <span className="text-textGreen">comments on</span> it by passing
@@ -118,13 +118,13 @@ const Projects = () => {
               >
                 <TbBrandGithub />
               </a>
-              <a
+              {/*<a
                 className="hover:text-textGreen duration-300"
                 href="https://youtu.be/49Fx963su1I"
                 target="_blank"
               >
                 <AiOutlineYoutube />
-              </a>
+              </a>*/}
               <a
                 className="hover:text-textGreen duration-300"
                 href="https://www.noormohmmad.com/"
@@ -159,7 +159,7 @@ const Projects = () => {
               </p>
               <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
             </div>
-            <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
+            <p className="text-sm md:text-base bg-[#31363F] p-2 md:p-6 rounded-md">
               An Amazon clone website for visualizing personalized Amazon
               website. View your products, Add your account with{" "}
               <span className="text-textGreen">O-auth</span> and then make the
@@ -180,13 +180,13 @@ const Projects = () => {
               >
                 <TbBrandGithub />
               </a>
-              <a
+              {/*<a
                 className="hover:text-textGreen duration-300"
                 href="https://youtu.be/fi0nQc25xAw"
                 target="_blank"
               >
                 <AiOutlineYoutube />
-              </a>
+              </a>*/}
               <a
                 className="hover:text-textGreen duration-300"
                 href="https://noorshop.netlify.app/"
