@@ -80,7 +80,7 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.1 }}
               >
-                <span className="text-textGreen">01.</span>
+                <span className="text-textGreen">&#x2160;.</span>
                 About
               </motion.li>
             </Link>
@@ -94,7 +94,7 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.2 }}
               >
-                <span className="text-textGreen">02.</span>
+                <span className="text-textGreen">&#x2161;.</span>
                 Experience
               </motion.li>
             </Link>
@@ -108,7 +108,7 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.3 }}
               >
-                <span className="text-textGreen">03.</span>
+                <span className="text-textGreen">&#x2162;.</span>
                 Project
               </motion.li>
             </Link>
@@ -122,7 +122,7 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.4 }}
               >
-                <span className="text-textGreen">04.</span>
+                <span className="text-textGreen">&#x2163;.</span>
                 Contact
               </motion.li>
             </Link>
