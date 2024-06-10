@@ -37,28 +37,6 @@ const Archive = () => {
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
           link="https://reactbd.com/"
         />
-        <ArchiveCard
-          title="Amazon Clone with login, cart-option and payment intrigation."
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://amazonclone.reactbd.com/"
-        />
-        <ArchiveCard
-          title="JSON data (example data api for test projects)"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Nextjs", "Tailwind CSS", "next-router"]}
-          link="https://jsondata.reactbd.com/"
-        />
-        <ArchiveCard
-          title="Dynamic Responsive Portfolio"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://portfolioone.reactbd.com/"
-        />
-
         {showMore && (
           <>
             <motion.div
@@ -98,84 +76,6 @@ const Archive = () => {
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Nextjs", "Tailwind CSS", "next-auth", "firebase"]}
                 link="https://my-blog-delta-eight.vercel.app/"
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.4 }}
-            >
-              <ArchiveCard
-                title="Shoppers Online Shopping Market"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-                listItem={["Nextjs", "react-slick", "redux-toolkit"]}
-                link="https://shoppersyt.vercel.app/"
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.5 }}
-            >
-              <ArchiveCard
-                title="Single Page Personalized Portfolio"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-                listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
-                link="https://portfoliotwo.reactbd.com/"
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.6 }}
-            >
-              <ArchiveCard
-                title="Nextjs Dynamic Portfolio"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-                listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
-                link="https://portfoliothree.reactbd.com/"
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.7 }}
-            >
-              <ArchiveCard
-                title="Bazaar - A Modern Shopping app"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-                listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
-                link="https://bazar.reactbd.com/"
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.8 }}
-            >
-              <ArchiveCard
-                title="Blog101 Application"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-                listItem={["Nextjs", "Tailwind CSS", "next-auth"]}
-                link="https://blog101.reactbd.com/"
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.9 }}
-            >
-              <ArchiveCard
-                title="Todo application"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-                listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
-                link="https://youtubetodo.vercel.app/"
               />
             </motion.div>
           </>
