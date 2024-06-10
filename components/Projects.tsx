@@ -49,7 +49,7 @@ const Projects = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/babynapboltron8"
                 target="_blank"
               >
                 <TbBrandGithub />
@@ -113,7 +113,7 @@ const Projects = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/babynapboltron8"
                 target="_blank"
               >
                 <TbBrandGithub />
@@ -175,7 +175,7 @@ const Projects = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/babynapboltron8"
                 target="_blank"
               >
                 <TbBrandGithub />
