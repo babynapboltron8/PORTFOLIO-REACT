@@ -1,6 +1,6 @@
 import { useState } from "react";
 import SectionTitle from "./SectionTitle";
-import Amazon from "./works/Amazon";
+import Dswd from "./works/Dswd";
 import Apple from "./works/Apple";
 import Google from "./works/Google";
 import ReactBD from "./works/ReactBD";
@@ -11,14 +11,14 @@ const Experience = () => {
   const [workGoogle, setWorkGoogle] = useState(false);
   const [workApple, setWorkApple] = useState(false);
   const [workSplash, setWorkSplash] = useState(false);
-  const [workAmazon, setWorkAmazon] = useState(false);
+  const [workDswd, setWorkDswd] = useState(false);
 
   const handleReactbd = () => {
     setWorkReactbd(true);
     setWorkGoogle(false);
     setWorkApple(false);
     setWorkSplash(false);
-    setWorkAmazon(false);
+    setWorkDswd(false);
   };
 
   const handleGoogle = () => {
@@ -26,7 +26,7 @@ const Experience = () => {
     setWorkGoogle(true);
     setWorkApple(false);
     setWorkSplash(false);
-    setWorkAmazon(false);
+    setWorkDswd(false);
   };
 
   const handleApple = () => {
@@ -34,21 +34,21 @@ const Experience = () => {
     setWorkGoogle(false);
     setWorkApple(true);
     setWorkSplash(false);
-    setWorkAmazon(false);
+    setWorkDswd(false);
   };
   const handleSplash = () => {
     setWorkReactbd(false);
     setWorkGoogle(false);
     setWorkApple(false);
     setWorkSplash(true);
-    setWorkAmazon(false);
+    setWorkDswd(false);
   };
-  const handleAmazon = () => {
+  const handleDswd = () => {
     setWorkReactbd(false);
     setWorkGoogle(false);
     setWorkApple(false);
     setWorkSplash(false);
-    setWorkAmazon(true);
+    setWorkDswd(true);
   };
   return (
     <section
@@ -99,9 +99,9 @@ const Experience = () => {
             Splash
           </li>
           <li
-            onClick={handleAmazon}
+            onClick={handleDswd}
             className={`${
-              workAmazon
+              workDswd
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
@@ -113,7 +113,7 @@ const Experience = () => {
         {workGoogle && <Google />}
         {workApple && <Apple />}
         {workSplash && <Splash />}
-        {workAmazon && <Amazon />}
+        {workDswd && <Dswd />}
       </div>
     </section>
   );

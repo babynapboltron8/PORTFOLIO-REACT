@@ -1,7 +1,7 @@
 import { TiArrowForward } from "react-icons/ti";
 import { motion } from "framer-motion";
 
-const Amazon = () => {
+const Dswd = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -40,4 +40,4 @@ const Amazon = () => {
   );
 };
 
-export default Amazon;
+export default Dswd;
