@@ -3,18 +3,18 @@ import SectionTitle from "./SectionTitle";
 import Dswd from "./works/Dswd";
 import Evpieza from "./works/Evpieza";
 import Apprenticeship from "./works/Apprenticeship";
-import ReactBD from "./works/ReactBD";
+import Internship from "./works/Internship";
 import Pnp from "./works/Pnp";
 
 const Experience = () => {
-  const [workReactbd, setWorkReactbd] = useState(true);
+  const [workInternship, setWorkInternship] = useState(true);
   const [workApprenticeship, setWorkApprenticeship] = useState(false);
   const [workEvpieza, setWorkEvpieza] = useState(false);
   const [workPnp, setWorkPnp] = useState(false);
   const [workDswd, setWorkDswd] = useState(false);
 
-  const handleReactbd = () => {
-    setWorkReactbd(true);
+  const handleInternship = () => {
+    setWorkInternship(true);
     setWorkApprenticeship(false);
     setWorkEvpieza(false);
     setWorkPnp(false);
@@ -22,7 +22,7 @@ const Experience = () => {
   };
 
   const handleApprenticeship = () => {
-    setWorkReactbd(false);
+    setWorkInternship(false);
     setWorkApprenticeship(true);
     setWorkEvpieza(false);
     setWorkPnp(false);
@@ -30,21 +30,21 @@ const Experience = () => {
   };
 
   const handleEvpieza = () => {
-    setWorkReactbd(false);
+    setWorkInternship(false);
     setWorkApprenticeship(false);
     setWorkEvpieza(true);
     setWorkPnp(false);
     setWorkDswd(false);
   };
   const handlePnp = () => {
-    setWorkReactbd(false);
+    setWorkInternship(false);
     setWorkApprenticeship(false);
     setWorkEvpieza(false);
     setWorkPnp(true);
     setWorkDswd(false);
   };
   const handleDswd = () => {
-    setWorkReactbd(false);
+    setWorkInternship(false);
     setWorkApprenticeship(false);
     setWorkEvpieza(false);
     setWorkPnp(false);
@@ -59,14 +59,14 @@ const Experience = () => {
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col">
           <li
-            onClick={handleReactbd}
+            onClick={handleInternship}
             className={`${
-              workReactbd
+              workInternship
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            RactBD
+            Internship
           </li>
           <li
             onClick={handleApprenticeship}
@@ -109,7 +109,7 @@ const Experience = () => {
             DSWD
           </li>
         </ul>
-        {workReactbd && <ReactBD />}
+        {workInternship && <Internship />}
         {workApprenticeship && <Apprenticeship />}
         {workEvpieza && <Evpieza />}
         {workPnp && <Pnp />}
