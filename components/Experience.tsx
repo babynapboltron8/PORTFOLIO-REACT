@@ -4,20 +4,20 @@ import Dswd from "./works/Dswd";
 import Apple from "./works/Apple";
 import Google from "./works/Google";
 import ReactBD from "./works/ReactBD";
-import Splash from "./works/Splash";
+import Pnp from "./works/Pnp";
 
 const Experience = () => {
   const [workReactbd, setWorkReactbd] = useState(true);
   const [workGoogle, setWorkGoogle] = useState(false);
   const [workApple, setWorkApple] = useState(false);
-  const [workSplash, setWorkSplash] = useState(false);
+  const [workPnp, setWorkPnp] = useState(false);
   const [workDswd, setWorkDswd] = useState(false);
 
   const handleReactbd = () => {
     setWorkReactbd(true);
     setWorkGoogle(false);
     setWorkApple(false);
-    setWorkSplash(false);
+    setWorkPnp(false);
     setWorkDswd(false);
   };
 
@@ -25,7 +25,7 @@ const Experience = () => {
     setWorkReactbd(false);
     setWorkGoogle(true);
     setWorkApple(false);
-    setWorkSplash(false);
+    setWorkPnp(false);
     setWorkDswd(false);
   };
 
@@ -33,21 +33,21 @@ const Experience = () => {
     setWorkReactbd(false);
     setWorkGoogle(false);
     setWorkApple(true);
-    setWorkSplash(false);
+    setWorkPnp(false);
     setWorkDswd(false);
   };
-  const handleSplash = () => {
+  const handlePnp = () => {
     setWorkReactbd(false);
     setWorkGoogle(false);
     setWorkApple(false);
-    setWorkSplash(true);
+    setWorkPnp(true);
     setWorkDswd(false);
   };
   const handleDswd = () => {
     setWorkReactbd(false);
     setWorkGoogle(false);
     setWorkApple(false);
-    setWorkSplash(false);
+    setWorkPnp(false);
     setWorkDswd(true);
   };
   return (
@@ -89,9 +89,9 @@ const Experience = () => {
             Apple
           </li>
           <li
-            onClick={handleSplash}
+            onClick={handlePnp}
             className={`${
-              workSplash
+              workPnp
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
@@ -112,7 +112,7 @@ const Experience = () => {
         {workReactbd && <ReactBD />}
         {workGoogle && <Google />}
         {workApple && <Apple />}
-        {workSplash && <Splash />}
+        {workPnp && <Pnp />}
         {workDswd && <Dswd />}
       </div>
     </section>

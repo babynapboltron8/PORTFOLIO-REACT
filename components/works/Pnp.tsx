@@ -1,7 +1,7 @@
 import { TiArrowForward } from "react-icons/ti";
 import { motion } from "framer-motion";
 
-const Splash = () => {
+const Pnp = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -40,4 +40,4 @@ const Splash = () => {
   );
 };
 
-export default Splash;
+export default Pnp;
