@@ -106,7 +106,7 @@ const Experience = () => {
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Amazon
+            DSWD
           </li>
         </ul>
         {workReactbd && <ReactBD />}
