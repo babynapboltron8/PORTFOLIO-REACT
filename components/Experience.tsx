@@ -1,7 +1,7 @@
 import { useState } from "react";
 import SectionTitle from "./SectionTitle";
 import Dswd from "./works/Dswd";
-import Apple from "./works/Apple";
+import Evpieza from "./works/Evpieza";
 import Google from "./works/Google";
 import ReactBD from "./works/ReactBD";
 import Pnp from "./works/Pnp";
@@ -9,14 +9,14 @@ import Pnp from "./works/Pnp";
 const Experience = () => {
   const [workReactbd, setWorkReactbd] = useState(true);
   const [workGoogle, setWorkGoogle] = useState(false);
-  const [workApple, setWorkApple] = useState(false);
+  const [workEvpieza, setWorkEvpieza] = useState(false);
   const [workPnp, setWorkPnp] = useState(false);
   const [workDswd, setWorkDswd] = useState(false);
 
   const handleReactbd = () => {
     setWorkReactbd(true);
     setWorkGoogle(false);
-    setWorkApple(false);
+    setWorkEvpieza(false);
     setWorkPnp(false);
     setWorkDswd(false);
   };
@@ -24,29 +24,29 @@ const Experience = () => {
   const handleGoogle = () => {
     setWorkReactbd(false);
     setWorkGoogle(true);
-    setWorkApple(false);
+    setWorkEvpieza(false);
     setWorkPnp(false);
     setWorkDswd(false);
   };
 
-  const handleApple = () => {
+  const handleEvpieza = () => {
     setWorkReactbd(false);
     setWorkGoogle(false);
-    setWorkApple(true);
+    setWorkEvpieza(true);
     setWorkPnp(false);
     setWorkDswd(false);
   };
   const handlePnp = () => {
     setWorkReactbd(false);
     setWorkGoogle(false);
-    setWorkApple(false);
+    setWorkEvpieza(false);
     setWorkPnp(true);
     setWorkDswd(false);
   };
   const handleDswd = () => {
     setWorkReactbd(false);
     setWorkGoogle(false);
-    setWorkApple(false);
+    setWorkEvpieza(false);
     setWorkPnp(false);
     setWorkDswd(true);
   };
@@ -79,14 +79,14 @@ const Experience = () => {
             Google
           </li>
           <li
-            onClick={handleApple}
+            onClick={handleEvpieza}
             className={`${
-              workApple
+              workEvpieza
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Apple
+            Evpieza
           </li>
           <li
             onClick={handlePnp}
@@ -111,7 +111,7 @@ const Experience = () => {
         </ul>
         {workReactbd && <ReactBD />}
         {workGoogle && <Google />}
-        {workApple && <Apple />}
+        {workEvpieza && <Evpieza />}
         {workPnp && <Pnp />}
         {workDswd && <Dswd />}
       </div>

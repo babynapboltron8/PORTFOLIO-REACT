@@ -1,7 +1,7 @@
 import { TiArrowForward } from "react-icons/ti";
 import { motion } from "framer-motion";
 
-const Apple = () => {
+const Evpieza = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -10,40 +10,34 @@ const Apple = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        MERN Stack Developer
-        <span className="text-textGreen tracking-wide">@Apple</span>
+      Bookkeeper 
+        <span className="text-textGreen tracking-wide">@Evpieza Archt'l Design Studio </span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Jan 2021 - Dec 2021
+        Jan 2022 - Oct 2022
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-          distinctio doloribus quas ex ea sed.
+          Documenting income from various projects, consulting fees, and other sources.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
-          sit adipisci ad exercitationem a amet cum porro recusandae eveniet,
-          accusantium animi tenetur rerum, culpa quibusdam! Consectetur
-          laboriosam hic harum modi.
+          Preparing balance sheets, income statements, and cash flow statements to provide a clear picture of the firm's financial health.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam et
-          corporis necessitatibus? Pariatur voluptas ad, at et hic deserunt
-          sequi?
+          Assisting in the creation of project budgets and tracking expenses against these budgets to ensure financial discipline.
         </li>
       </ul>
     </motion.div>
   );
 };
 
-export default Apple;
+export default Evpieza;
