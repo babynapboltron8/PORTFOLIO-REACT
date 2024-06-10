@@ -2,28 +2,28 @@ import { useState } from "react";
 import SectionTitle from "./SectionTitle";
 import Dswd from "./works/Dswd";
 import Evpieza from "./works/Evpieza";
-import Google from "./works/Google";
+import Apprenticeship from "./works/Apprenticeship";
 import ReactBD from "./works/ReactBD";
 import Pnp from "./works/Pnp";
 
 const Experience = () => {
   const [workReactbd, setWorkReactbd] = useState(true);
-  const [workGoogle, setWorkGoogle] = useState(false);
+  const [workApprenticeship, setWorkApprenticeship] = useState(false);
   const [workEvpieza, setWorkEvpieza] = useState(false);
   const [workPnp, setWorkPnp] = useState(false);
   const [workDswd, setWorkDswd] = useState(false);
 
   const handleReactbd = () => {
     setWorkReactbd(true);
-    setWorkGoogle(false);
+    setWorkApprenticeship(false);
     setWorkEvpieza(false);
     setWorkPnp(false);
     setWorkDswd(false);
   };
 
-  const handleGoogle = () => {
+  const handleApprenticeship = () => {
     setWorkReactbd(false);
-    setWorkGoogle(true);
+    setWorkApprenticeship(true);
     setWorkEvpieza(false);
     setWorkPnp(false);
     setWorkDswd(false);
@@ -31,21 +31,21 @@ const Experience = () => {
 
   const handleEvpieza = () => {
     setWorkReactbd(false);
-    setWorkGoogle(false);
+    setWorkApprenticeship(false);
     setWorkEvpieza(true);
     setWorkPnp(false);
     setWorkDswd(false);
   };
   const handlePnp = () => {
     setWorkReactbd(false);
-    setWorkGoogle(false);
+    setWorkApprenticeship(false);
     setWorkEvpieza(false);
     setWorkPnp(true);
     setWorkDswd(false);
   };
   const handleDswd = () => {
     setWorkReactbd(false);
-    setWorkGoogle(false);
+    setWorkApprenticeship(false);
     setWorkEvpieza(false);
     setWorkPnp(false);
     setWorkDswd(true);
@@ -69,14 +69,14 @@ const Experience = () => {
             RactBD
           </li>
           <li
-            onClick={handleGoogle}
+            onClick={handleApprenticeship}
             className={`${
-              workGoogle
+              workApprenticeship
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Google
+            Apprentice
           </li>
           <li
             onClick={handleEvpieza}
@@ -110,7 +110,7 @@ const Experience = () => {
           </li>
         </ul>
         {workReactbd && <ReactBD />}
-        {workGoogle && <Google />}
+        {workApprenticeship && <Apprenticeship />}
         {workEvpieza && <Evpieza />}
         {workPnp && <Pnp />}
         {workDswd && <Dswd />}

@@ -1,6 +1,6 @@
 import { TiArrowForward } from "react-icons/ti";
 import { motion } from "framer-motion";
-const Google = () => {
+const Apprenticeship = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -9,40 +9,35 @@ const Google = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Web Developer
-        <span className="text-textGreen tracking-wide">@Google</span>
+        Junior Web Developer
+        <span className="text-textGreen tracking-wide">@Software Engr. Dexter Echalico </span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Jan 2022 - Dec 2023
+        Mar 2023 - Nov 2023
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-          distinctio doloribus quas ex ea sed.
+          Creating and styling components based on designs provided by UI/UX designers. This involves using HTML, CSS, and JavaScript (or frameworks/libraries like React, Vue.js, or Angular).
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
-          sit adipisci ad exercitationem a amet cum porro recusandae eveniet,
-          accusantium animi tenetur rerum, culpa quibusdam! Consectetur
-          laboriosam hic harum modi.
+          Ensuring that web pages and components are responsive, adapting to various screen sizes and devices.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam et
-          corporis necessitatibus? Pariatur voluptas ad, at et hic deserunt
-          sequi?
+          Using Git to manage code changes, create branches, and collaborate with other team members. This includes committing changes, pushing to repositories, and handling merge conflicts.
+
         </li>
       </ul>
     </motion.div>
   );
 };
 
-export default Google;
+export default Apprenticeship;
