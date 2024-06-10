@@ -17,25 +17,22 @@ const Archive = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
-          title="Educare Engligh Learning Academy"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.educareenglishlearningacademy.com/"
+          title="To-Do-List"
+          des=" A to-do list app using JavaScript allows users to add, complete, and delete tasks, with data persistence via local storage."
+          listItem={["HTML", "CSS", "JavaScript"]}
+          link="https://stackblitz.com/edit/stackblitz-starters-hewmi6?file=package.json"
         />
         <ArchiveCard
-          title="Cyber Security Blog with live comments section"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.noormohmmad.com/"
+          title="Task Manager"
+          des=" Enables users to create, manage, and organize tasks, incorporating features like adding, editing, deleting tasks, and marking them as complete."
+          listItem={["HTML", "CSS", "JavaScript"]}
+          link="https://stackblitz.com/edit/stackblitz-starters-bpbagk?file=index.html"
         />
         <ArchiveCard
-          title="ReactBD web development company"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://reactbd.com/"
+          title="Sidebar Menu"
+          des=" Built using HTML for structure, CSS for styling, and JavaScript for interactive functionality, allowing users to switch pages."
+          listItem={["HTML", "CSS", "JavaScript"]}
+          link="https://stackblitz.com/edit/stackblitz-starters-9syf3j?file=index.js"
         />
         {showMore && (
           <>
@@ -45,11 +42,10 @@ const Archive = () => {
               transition={{ delay: 0.1 }}
             >
               <ArchiveCard
-                title="OREBI e-commerce Shopping store"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-                listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-                link="https://orebishopping.reactbd.com/"
+                title="Testimonial slider"
+                des=" Showcase user feedback dynamically. Created using HTML for structure, CSS for styling, and JavaScript for functionality, allowing users to navigate."
+                listItem={["HTML", "CSS", "JavaScript"]}
+                link="https://stackblitz.com/edit/stackblitz-starters-bkkpxf?file=index.js"
               />
             </motion.div>
             <motion.div
@@ -58,11 +54,10 @@ const Archive = () => {
               transition={{ delay: 0.2 }}
             >
               <ArchiveCard
-                title="Noor Online Shopping Store"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-                listItem={["Reactjs", "Tailwind CSS", "redux-toolkit"]}
-                link="https://noorshop.netlify.app/"
+                title="Tabs"
+                des=" Implemented with HTML for structure, CSS for styling, and JavaScript for interactivity, enabling users to switch between sections seamlessly and enhancing the app's user experience.."
+                listItem={["HTML", "CSS", "JavaScript"]}
+                link="https://stackblitz.com/edit/stackblitz-starters-basmsk?file=app.js"
               />
             </motion.div>
             <motion.div
@@ -71,11 +66,10 @@ const Archive = () => {
               transition={{ delay: 0.3 }}
             >
               <ArchiveCard
-                title="Personalized Blog"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-                listItem={["Nextjs", "Tailwind CSS", "next-auth", "firebase"]}
-                link="https://my-blog-delta-eight.vercel.app/"
+                title="Dark Mode"
+                des=" This feature is implemented using CSS to adjust the color scheme and JavaScript to toggle between light and dark modes based on user preferences."
+                listItem={["HTML", "CSS", "JavaScript"]}
+                link="https://stackblitz.com/edit/stackblitz-starters-v9gpmc?file=index.js"
               />
             </motion.div>
           </>
