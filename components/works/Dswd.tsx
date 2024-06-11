@@ -33,7 +33,7 @@ const Dswd = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Supports and promotes clients' rights and needs within various systems. They work to ensure clients have access to necessary services and fair treatment.
+          Supports and promotes clients rights and needs within various systems. They work to ensure clients have access to necessary services and fair treatment.
         </li>
       </ul>
     </motion.div>

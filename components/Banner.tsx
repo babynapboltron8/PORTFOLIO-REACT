@@ -21,7 +21,7 @@ const Banner = () => {
       >
         Baby Nap Boltron.
         <span className="text-textDark mt-2 lgl:mt-4">
-        I'm a Web Developer.
+        I&apos;m a Web Developer.
         </span>
       </motion.h1>
       <motion.p
@@ -30,7 +30,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        With over a year of experience, I'm proficient in HTML, CSS, and JavaScript, with a focus on creating user-friendly, responsive web applications using React and its ecosystem.{" "}
+        With over a year of experience, I&apos;m proficient in HTML, CSS, and JavaScript, with a focus on creating user-friendly, responsive web applications using React and its ecosystem.{" "}
         <a href="" target="_blank">
           {" "}
           <br />

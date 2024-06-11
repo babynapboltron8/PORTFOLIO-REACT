@@ -11,7 +11,7 @@ const Evpieza = () => {
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
       Bookkeeper 
-        <span className="text-textGreen tracking-wide">@Evpieza Archt'l Design Studio </span>
+        <span className="text-textGreen tracking-wide">@Evpieza Archt&apos;l Design Studio </span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
         Jan 2022 - Oct 2022
@@ -27,7 +27,7 @@ const Evpieza = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Preparing balance sheets, income statements, and cash flow statements to provide a clear picture of the firm's financial health.
+          Preparing balance sheets, income statements, and cash flow statements to provide a clear picture of the firm&apos;s financial health.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">

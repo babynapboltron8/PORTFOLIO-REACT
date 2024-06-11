@@ -7,11 +7,11 @@ const Contact = () => {
       className="max-w-contentContainer mx-auto py-10 xl:py-32 flex flex-col gap-4 items-center justify-center"
     >
       <p className="font-titleFont text-lg text-textGreen font-semibold flex items-center tracking-wide">
-      &#x2163;. What’s Next?
+      &#x2163;. What&apos;s Next?
       </p>
-      <h2 className="font-titleFont text-5xl font-semibold">Let's talk</h2>
+      <h2 className="font-titleFont text-5xl font-semibold">Let&apos;s talk</h2>
       <p className="max-w-[600px] text-center text-textDark">
-      Actively seeking new opportunities, I am available for work and open to discussing potential collaborations. Whether you have inquiries or simply want to connect, feel free to reach out, and I'll be glad to explore any possibilities together!
+      Actively seeking new opportunities, I am available for work and open to discussing potential collaborations. Whether you have inquiries or simply want to connect, feel free to reach out, and I&apos;ll be glad to explore any possibilities together!
       </p>
 
       <a href="mailto:babynap8@gmail.com">
