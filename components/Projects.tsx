@@ -34,10 +34,7 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">Cinnamon Ph</h3>
             </div>
             <p className="bg-[#31363F] text-sm md:text-base p-2 md:p-6 rounded-md">
-              An Amazon clone website for visualizing personalized Amazon
-              website. View your products, Add your account with{" "}
-              <span className="text-textGreen">O-auth</span> and then make the
-              purchage using <span className="text-textGreen">stripe</span>.
+            A Cinnamon PH platform for <span className="text-textGreen">enrolling courses.</span> create your account with O-auth <span className="text-textGreen">Explore a wide range of courses,{" "}</span>and seamlessly enroll.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>C#</li>
@@ -54,13 +51,6 @@ const Projects = () => {
               >
                 <TbBrandGithub />
               </a>
-              {/*<a
-                className="hover:text-textGreen duration-300"
-                href="https://youtu.be/WzMtRfzkP-Q"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
-              </a>}*/}
               <a
                 className="hover:text-textGreen duration-300"
                 href="https://cinnamon.ph/"
@@ -96,12 +86,7 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">Real Estate Website</h3>
             </div>
             <p className="text-sm md:text-base bg-[#31363F] p-2 md:p-6 rounded-md xl:-mr-16">
-              A full functional Cyber Security Blog where you can view the
-              latest post and{" "}
-              <span className="text-textGreen">comments on</span> it by passing
-              your ideas besides you can try to add your own{" "}
-              <span className="text-textGreen">post</span> on it by logging on
-              the portal.
+            A real estate platform for <span className="text-textGreen">browsing and purchasing propertiest</span>. Explore various listings, create your account with O-auth, and{" "} <span className="text-textGreen">conveniently</span> make purchases.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>React</li>
@@ -118,13 +103,6 @@ const Projects = () => {
               >
                 <TbBrandGithub />
               </a>
-              {/*<a
-                className="hover:text-textGreen duration-300"
-                href="https://youtu.be/49Fx963su1I"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
-              </a>*/}
               <a
                 className="hover:text-textGreen duration-300"
                 href=""
@@ -160,10 +138,7 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">Figma Ecommerce UI</h3>
             </div>
             <p className="text-sm md:text-base bg-[#31363F] p-2 md:p-6 rounded-md">
-              An Amazon clone website for visualizing personalized Amazon
-              website. View your products, Add your account with{" "}
-              <span className="text-textGreen">O-auth</span> and then make the
-              purchage using <span className="text-textGreen">stripe</span>.
+            A Figma Ecommerce UI project for <span className="text-textGreen">designing</span> and <span className="text-textGreen">prototyping</span> online stores. Explore various templates,{" "} <span className="text-textGreen">customize</span> design and professional UI.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>User-centered design</li>
@@ -180,13 +155,6 @@ const Projects = () => {
               >
                 <TbBrandGithub />
               </a>
-              {/*<a
-                className="hover:text-textGreen duration-300"
-                href="https://youtu.be/fi0nQc25xAw"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
-              </a>*/}
               <a
                 className="hover:text-textGreen duration-300"
                 href="https://www.figma.com/proto/YU4sp49iqXOq4h7BN3PWqc/E-commerce-website-design?page-id=0%3A1&node-id=2-2&viewport=535%2C209%2C0.18&t=nQXBDiDBjimOk0D7-1&scaling=scale-down"
