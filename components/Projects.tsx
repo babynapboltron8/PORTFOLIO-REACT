@@ -31,7 +31,7 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
+              <h3 className="text-2xl font-bold">Cinnamon Ph</h3>
             </div>
             <p className="bg-[#31363F] text-sm md:text-base p-2 md:p-6 rounded-md">
               An Amazon clone website for visualizing personalized Amazon
@@ -40,11 +40,11 @@ const Projects = () => {
               purchage using <span className="text-textGreen">stripe</span>.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Stripe</li>
-              <li>Vercel Deployment</li>
+              <li>C#</li>
+              <li>Blazer</li>
+              <li>Bootstrap</li>
+              <li>Docker</li>
+              <li>CSS</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
@@ -93,7 +93,7 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Cyber Security Blog</h3>
+              <h3 className="text-2xl font-bold">Real Estate Website</h3>
             </div>
             <p className="text-sm md:text-base bg-[#31363F] p-2 md:p-6 rounded-md xl:-mr-16">
               A full functional Cyber Security Blog where you can view the
@@ -104,11 +104,11 @@ const Projects = () => {
               the portal.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Sanity</li>
-              <li>React Hook Form</li>
+              <li>React</li>
+              <li>Tailwind</li>
+              <li>Chart.js</li>
+              <li>Nodejs</li>
+              <li>HTML</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
@@ -157,7 +157,7 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
+              <h3 className="text-2xl font-bold">Figma Ecommerce UI</h3>
             </div>
             <p className="text-sm md:text-base bg-[#31363F] p-2 md:p-6 rounded-md">
               An Amazon clone website for visualizing personalized Amazon
@@ -166,11 +166,11 @@ const Projects = () => {
               purchage using <span className="text-textGreen">stripe</span>.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Stripe</li>
-              <li>Vercel Deployment</li>
+              <li>User-centered design</li>
+              <li>Simplicity</li>
+              <li>Consistency</li>
+              <li>Accessibility</li>
+              <li>Readability</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
