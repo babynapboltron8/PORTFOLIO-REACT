@@ -1,7 +1,8 @@
 import logo from "./images/logo.png";
 import profileImg from "./images/profile.png";
-import amazonImg from "./images/amazonImg.png";
-import cyberImg from "./images/cyberBlog.png";
-import noorShop from "./images/noorShop.png";
+import realestate from "./images/realestate.png";
+import ecommerce from "./images/ecommerce.png";
+import cinnamon from "./images/cinnamon.png"
 
-export { logo, profileImg, amazonImg, cyberImg, noorShop };
+
+export { logo, profileImg, cinnamon, realestate, ecommerce };

@@ -1,4 +1,4 @@
-import { amazonImg, cyberImg, noorShop } from "@/public/assets";
+import { cinnamon, realestate, ecommerce } from "@/public/assets";
 import Image from "next/image";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { TbBrandGithub } from "react-icons/tb";
@@ -14,14 +14,14 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://nextamazon.reactbd.com/"
+            href="https://cinnamon.ph/"
             target="_blank"
           >
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={amazonImg}
-                alt="amazonImg"
+                src={cinnamon}
+                alt="cinnamon"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -63,7 +63,7 @@ const Projects = () => {
               </a>}*/}
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://nextamazon.reactbd.com/"
+                href="https://cinnamon.ph/"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
@@ -76,14 +76,14 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://www.noormohmmad.com/"
+            href=""
             target="_blank"
           >
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={cyberImg}
-                alt="cyberImg"
+                src={realestate}
+                alt="realestate"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -127,7 +127,7 @@ const Projects = () => {
               </a>*/}
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://www.noormohmmad.com/"
+                href=""
                 target="_blank"
               >
                 <RxOpenInNewWindow />
@@ -146,8 +146,8 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={noorShop}
-                alt="noorShop"
+                src={ecommerce}
+                alt="ecommerce"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -189,7 +189,7 @@ const Projects = () => {
               </a>*/}
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://noorshop.netlify.app/"
+                href="https://www.figma.com/proto/YU4sp49iqXOq4h7BN3PWqc/E-commerce-website-design?page-id=0%3A1&node-id=2-2&viewport=535%2C209%2C0.18&t=nQXBDiDBjimOk0D7-1&scaling=scale-down"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
