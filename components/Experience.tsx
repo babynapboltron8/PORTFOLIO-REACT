@@ -64,7 +64,7 @@ const Experience = () => {
               workInternship
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#31363F] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             Internship
           </li>
@@ -74,7 +74,7 @@ const Experience = () => {
               workApprenticeship
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#31363F] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             Apprentice
           </li>
@@ -84,7 +84,7 @@ const Experience = () => {
               workEvpieza
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#31363F] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             Evpieza
           </li>
@@ -94,7 +94,7 @@ const Experience = () => {
               workPnp
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#31363F] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             PNP
           </li>
@@ -104,7 +104,7 @@ const Experience = () => {
               workDswd
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#31363F] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             DSWD
           </li>
