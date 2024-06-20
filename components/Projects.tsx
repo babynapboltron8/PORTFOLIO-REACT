@@ -98,7 +98,7 @@ const Projects = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/babynapboltron8"
+                href="https://github.com/babynapboltron8/real-estate"
                 target="_blank"
               >
                 <TbBrandGithub />
@@ -118,7 +118,7 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://noorshop.netlify.app/"
+            href=""
             target="_blank"
           >
             <div>
