@@ -86,7 +86,7 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">Real Estate Website</h3>
             </div>
             <p className="text-sm md:text-base bg-[#31363F] p-2 md:p-6 rounded-md xl:-mr-16">
-            A real estate platform for <span className="text-textGreen">browsing and purchasing propertiest</span>. Explore various listings, create your account with O-auth, and{" "} <span className="text-textGreen">conveniently</span> make purchases.
+            A real estate platform for <span className="text-textGreen">browsing and purchasing properties</span>. Explore various listings, create your account with O-auth, and{" "} <span className="text-textGreen">conveniently</span> make purchases.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>React</li>
