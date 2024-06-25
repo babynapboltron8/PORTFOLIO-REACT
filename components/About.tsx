@@ -46,7 +46,7 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Node.js
+              TypeScript
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
