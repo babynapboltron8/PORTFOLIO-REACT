@@ -1,7 +1,7 @@
-import { profileImg } from "@/public/assets";
-import Image from "next/image";
-import SectionTitle from "./SectionTitle";
-import { AiFillThunderbolt } from "react-icons/ai";
+import { profileImg } from '@/public/assets';
+import Image from 'next/image';
+import SectionTitle from './SectionTitle';
+import { AiFillThunderbolt } from 'react-icons/ai';
 
 const About = () => {
   return (
@@ -13,15 +13,30 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-          I am an avid reader of self-improvement books, always seeking new ways to enhance my personal and professional life. My passion for coding drives me to continually refine my programming skills, while my love for chess sharpens my strategic thinking. My ultimate goal is to become more efficient and proficient in the tech world, mastering the latest programming technologies and techniques.
+            I am an avid reader of self-improvement books, always seeking new
+            ways to enhance my personal and professional life. My passion for
+            coding drives me to continually refine my programming skills, while
+            my love for chess sharpens my strategic thinking. My ultimate goal
+            is to become more efficient and proficient in the tech world,
+            mastering the latest programming technologies and techniques.
           </p>
           <p>
-            Fast-forward to today, and I had the privilege of working in a company as intern, a start-up,{" "}
+            Moreover, I follow Agile development principles to build quality
+            software with flexibility and continuous improvement. I am a
+            self-motivated individual who enjoys working in a team environment,
+            collaborating with others to achieve common goals. I am always eager
+            to learn new things and take on new challenges, pushing myself to
+            grow and develop as a professional.
+          </p>
+          {/* <p>
+            Fast-forward to today, and I had the privilege of working in a
+            company as intern, a start-up,{' '}
             <span className="text-textGreen">
               where my position is Front-end.
             </span>
-             <br></br>My experience there has been instrumental in shaping my expertise. {" "}
-          </p>
+            <br></br>My experience there has been instrumental in shaping my
+            expertise.{' '}
+          </p> */}
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
             <li className="flex items-center gap-2">
@@ -34,7 +49,7 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Figma
+              Bootstrap
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -46,31 +61,31 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              TypeScript
+              Node.js
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              HTML
+              Typescript
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Wordpress
+              SQL/ noSQL
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              CSS (Frameworks)
+              Tailwind CSS
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Shopify
+              Vite
             </li>
           </ul>
         </div>
