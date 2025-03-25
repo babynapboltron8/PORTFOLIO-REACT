@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 const Banner = () => {
   return (
     <section
@@ -21,7 +21,7 @@ const Banner = () => {
       >
         Baby Nap Boltron.
         <span className="text-textDark mt-2 lgl:mt-4">
-        I&apos;m a Web Developer.
+          I&apos;m a Software Engineer.
         </span>
       </motion.h1>
       <motion.p
@@ -30,9 +30,11 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        With over a year of experience, I&apos;m proficient in HTML, CSS, and JavaScript, with a focus on creating user-friendly, responsive web applications using React and its ecosystem.{" "}
+        With over a year of experience, I&apos;m proficient in HTML, CSS, and
+        JavaScript, with a focus on creating user-friendly, responsive web
+        applications using React and its ecosystem.{' '}
         <a href="" target="_blank">
-          {" "}
+          {' '}
           <br />
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn more
@@ -40,7 +42,7 @@ const Banner = () => {
           </span>
         </a>
       </motion.p>
-      <a href="" target="_blank">
+      {/* <a href="" target="_blank">
         <motion.button
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -49,7 +51,7 @@ const Banner = () => {
         >
           Check out my project!
         </motion.button>
-      </a>
+      </a> */}
     </section>
   );
 };

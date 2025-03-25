@@ -1,36 +1,36 @@
-import { useRef } from "react";
-import { logo } from "@/public/assets";
-import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
-import { TbBrandGithub } from "react-icons/tb";
-import { SlSocialYoutube } from "react-icons/sl";
+import { useRef } from 'react';
+import { logo } from '@/public/assets';
+import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
+import { TbBrandGithub } from 'react-icons/tb';
+import { SlSocialYoutube } from 'react-icons/sl';
 import {
   SlSocialLinkedin,
   SlSocialFacebook,
   SlSocialInstagram,
-} from "react-icons/sl";
-import { MdOutlineClose } from "react-icons/md";
-import { motion } from "framer-motion";
+} from 'react-icons/sl';
+import { MdOutlineClose } from 'react-icons/md';
+import { motion } from 'framer-motion';
 
 const Navbar = () => {
-  const ref = useRef<string | any>("");
+  const ref = useRef<string | any>('');
   const [show, setShow] = useState(false);
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
     setShow(false);
     const href = e.currentTarget.href;
-    const targetId = href.replace(/.*\#/, "");
+    const targetId = href.replace(/.*\#/, '');
     const elem = document.getElementById(targetId);
     elem?.scrollIntoView({
-      behavior: "smooth",
+      behavior: 'smooth',
     });
     // Update the class name of the clicked link
-    const links = document.querySelectorAll(".nav-link");
+    const links = document.querySelectorAll('.nav-link');
     links.forEach((link) => {
-      link.classList.remove("active");
+      link.classList.remove('active');
     });
-    e.currentTarget.classList.add("active");
+    e.currentTarget.classList.add('active');
   };
 
   function handleClick(e: any) {
@@ -49,7 +49,7 @@ const Navbar = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.1 }}
           >
-            <Image className="w-14" src={logo} alt="logo" />
+            <Image className="w-28" src={logo} alt="logo" />
           </motion.div>
         </Link>
         {/* ============ Logo End here ============== */}
@@ -127,7 +127,7 @@ const Navbar = () => {
               </motion.li>
             </Link>
           </ul>
-          <a href="/assets/images/babynapboltron.resume.pdf" target="_blank">
+          <a href="/assets/images/BabyNapBoltron-CV.pdf" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -173,7 +173,7 @@ const Navbar = () => {
                     <motion.li
                       initial={{ x: 20, opacity: 0 }}
                       animate={{ x: 0, opacity: 1 }}
-                      transition={{ duration: 0.2, delay: 0.1, ease: "easeIn" }}
+                      transition={{ duration: 0.2, delay: 0.1, ease: 'easeIn' }}
                     >
                       Home
                     </motion.li>
@@ -187,7 +187,7 @@ const Navbar = () => {
                     <motion.li
                       initial={{ x: 20, opacity: 0 }}
                       animate={{ x: 0, opacity: 1 }}
-                      transition={{ duration: 0.2, delay: 0.2, ease: "easeIn" }}
+                      transition={{ duration: 0.2, delay: 0.2, ease: 'easeIn' }}
                     >
                       <span className="text-textGreen">&#x2160;.</span>
                       About
@@ -201,7 +201,7 @@ const Navbar = () => {
                     <motion.li
                       initial={{ x: 20, opacity: 0 }}
                       animate={{ x: 0, opacity: 1 }}
-                      transition={{ duration: 0.2, delay: 0.3, ease: "easeIn" }}
+                      transition={{ duration: 0.2, delay: 0.3, ease: 'easeIn' }}
                     >
                       <span className="text-textGreen">&#x2161;.</span>
                       Experience
@@ -215,7 +215,7 @@ const Navbar = () => {
                     <motion.li
                       initial={{ x: 20, opacity: 0 }}
                       animate={{ x: 0, opacity: 1 }}
-                      transition={{ duration: 0.2, delay: 0.4, ease: "easeIn" }}
+                      transition={{ duration: 0.2, delay: 0.4, ease: 'easeIn' }}
                     >
                       <span className="text-textGreen">&#x2162;.</span>
                       Project
@@ -229,7 +229,7 @@ const Navbar = () => {
                     <motion.li
                       initial={{ x: 20, opacity: 0 }}
                       animate={{ x: 0, opacity: 1 }}
-                      transition={{ duration: 0.2, delay: 0.5, ease: "easeIn" }}
+                      transition={{ duration: 0.2, delay: 0.5, ease: 'easeIn' }}
                     >
                       <span className="text-textGreen">&#x2163;.</span>
                       Contact
@@ -240,7 +240,7 @@ const Navbar = () => {
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    transition={{ delay: 0.6, ease: "easeIn" }}
+                    transition={{ delay: 0.6, ease: 'easeIn' }}
                     className="w-32 h-10 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
                   >
                     Resume
@@ -250,7 +250,7 @@ const Navbar = () => {
                   <motion.a
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
-                    transition={{ delay: 0.8, ease: "easeIn" }}
+                    transition={{ delay: 0.8, ease: 'easeIn' }}
                     href="https://github.com/babynapboltron8"
                     target="_blank"
                   >
@@ -261,7 +261,7 @@ const Navbar = () => {
                   <motion.a
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
-                    transition={{ delay: 0.85, ease: "easeIn" }}
+                    transition={{ delay: 0.85, ease: 'easeIn' }}
                     href=""
                     target="_blank"
                   >
@@ -272,7 +272,7 @@ const Navbar = () => {
                   <motion.a
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
-                    transition={{ delay: 0.9, ease: "easeIn" }}
+                    transition={{ delay: 0.9, ease: 'easeIn' }}
                     href="https://www.linkedin.com/in/babynapboltron8"
                     target="_blank"
                   >
@@ -283,7 +283,7 @@ const Navbar = () => {
                   <motion.a
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
-                    transition={{ delay: 0.95, ease: "easeIn" }}
+                    transition={{ delay: 0.95, ease: 'easeIn' }}
                     href="https://www.facebook.com/profile.php?id=100094002797065"
                     target="_blank"
                   >
@@ -294,7 +294,7 @@ const Navbar = () => {
                   <motion.a
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
-                    transition={{ delay: 1, ease: "easeIn" }}
+                    transition={{ delay: 1, ease: 'easeIn' }}
                     href=""
                     target="_blank"
                   >
@@ -308,7 +308,7 @@ const Navbar = () => {
               <motion.a
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ delay: 1.2, ease: "easeIn" }}
+                transition={{ delay: 1.2, ease: 'easeIn' }}
                 className="text-sm w-72 tracking-widest text-textGreen text-center mt-4"
                 href="mailto:noor.jsdivs@gmail.com"
               >
