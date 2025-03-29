@@ -30,9 +30,9 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        With over a year of experience, I&apos;m proficient in HTML, CSS, and
-        JavaScript, with a focus on creating user-friendly, responsive web
-        applications using React and its ecosystem.{' '}
+        With over a year of experience, I create user-friendly and responsive
+        web applications. I can help you achieve your business goals with
+        efficient and scalable solutions.{' '}
         <a href="" target="_blank">
           {' '}
           <br />
