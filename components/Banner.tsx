@@ -21,7 +21,7 @@ const Banner = () => {
       >
         Baby Nap Boltron.
         <span className="text-textDark mt-2 lgl:mt-4">
-          I&apos;m a Software Engineer.
+          I&apos;m a Software Developer.
         </span>
       </motion.h1>
       <motion.p
